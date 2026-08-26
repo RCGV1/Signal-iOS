@@ -2204,13 +2204,13 @@
 "CHOOSE_BACKUP_PLAN_TITLE" = "Triar pla de còpia de seguretat";
 
 /* Text on a screen shown when the app can't be used until the user corrects their device's date and time. Embeds {{ the device's current date and time, in UTC }}. */
-"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "Your device’s time is %1$@ UTC.";
+"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "La data i l'hora del teu dispositiu: %1$@ UTC.";
 
 /* Subtitle for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "Signal can’t be used while your device’s date and time are incorrect. Open Settings to correct them.";
+"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "No podràs fer servir Signal mentres la data i hora del teu dispositiu siguin incorrectes. Obre Ajustos per corregir-les.";
 
 /* Title for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_TITLE" = "Date is Inaccurate";
+"CLOCK_SKEW_APP_BLOCKING_TITLE" = "La data no és correcta";
 
 /* VoiceOver hint for an expanded collapse set button. */
 "COLLAPSE_SET_ACCESSIBILITY_HINT_COLLAPSE" = "Ocultar actualitzacions";
@@ -2559,6 +2559,9 @@
 
 /* Message indicating that only administrators can send message to an announcement-only group. */
 "CONVERSATION_PICKER_BLOCKED_BY_ANNOUNCEMENT_ONLY" = "Només els administradors poden enviar missatges a aquest grup.";
+
+/* Displayed at the bottom of chat picker in gray if no chats are selected. */
+"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "Choose a recipient";
 
 /* table section header for section containing groups */
 "CONVERSATION_PICKER_SECTION_GROUPS" = "Grups";
@@ -5471,7 +5474,7 @@
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_BULLET_3" = "Desactivar les còpies de seguretat quan vulguis";
 
 /* Subtitle for a view introducing local file backups during the onboarding flow. */
-"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "Back up your messages to a folder on your device. Your backup is end-to-end encrypted and can be restored by installing a new copy of Signal and choosing “Restore or Transfer“.";
+"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "Guarda les còpies de seguretat dels teus missatges en una carpeta del dispositiu. La teva còpia de seguretat es xifra d'extrem a extrem i es pot restaurar tornant a instal·lar Signal i seleccionant \"Restaurar o transferir\".";
 
 /* Title for a view introducing local file backups during the onboarding flow. */
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_TITLE" = "Còpies de seguretat al dispositiu";
@@ -5486,22 +5489,22 @@
 "LOCAL_FILE_BACKUPS_CHOOSE_FOLDER_TITLE" = "Tria una carpeta";
 
 /* Warning shown when a user tries to enable local file backups with optimize media enabled */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "You have Optimize Signal Storage on. If you want to include all media in your on-device backup, turn the setting off.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "Tens l'opció \"Optimitzar l'emmagatzematge de Signal\" activada. Desactiva-la si vols incloure tots els teus arxius multimèdia a la teva còpia de seguretat local.";
 
 /* Message for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "Turning on “Optimize Signal storage“ will offload old media from your device. You can download it again at any time. It will also remove old media from your on-device backup.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "Si actives l'opció Optimitzar l'emmagatzematge de Signal, s'eliminaran els arxius multimèdia antics del teu dispositiu. Podràs tornar-los a descarregar quan vulguis. També s'eliminaran els arxius multimèdia antics de la teva còpia de seguretat local.";
 
 /* Title for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "Media Will Be Removed From Your On-Device Backup";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "S'eliminaran els arxius multimèdia de la teva còpia de seguretat local";
 
 /* Action in a sheet warning the user about enabling Optimize Storage with local backups enabled, that turns on Optimize Storage. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "Turn on";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "Activa";
 
 /* Action in an action sheet offering to continue anyway. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "Continue Without Turning Off";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "Continuar sense desactivar";
 
 /* Action in an action sheet offering to go to the optimize local storage setting. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "View Setting";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "Veure configuració";
 
 /* A string indicating that the user can search for a location */
 "LOCATION_PICKER_SEARCH_PLACEHOLDER" = "Cerca per nom o adreça";
@@ -6311,7 +6314,7 @@
 "NOTE_TO_SELF" = "Notes personals";
 
 /* Body for a notification shown when Signal can't fetch messages because the device's date and time are incorrect. */
-"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal can’t receive messages while your device’s date and time are incorrect. Open Settings to correct them.";
+"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal no podrà rebre missatges mentre la data i hora del teu dispositiu siguin incorrectes. Obre Ajustos per corregir-les.";
 
 /* Body for a notification representing a message request. */
 "NOTIFICATION_BODY_INCOMING_MESSAGE_REQUEST" = "Sol·licitud de missatge";
@@ -6410,10 +6413,10 @@
 "ONBOARDING_2FA_SKIP_PIN_ENTRY_TITLE" = "Voleu ometre l'entrada del PIN?";
 
 /* Subtitle for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "Choosing an older backup may result in lost messages or media.";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "Si selecciones una còpia de seguretat més antiga, podries perdre missatges o arxius multimèdia.";
 
 /* Title for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "Choose a Backup to Restore";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "Selecciona una còpia de seguretat per restaurar";
 
 /* The body for the device transfer 'choice' view 'restore backup' option */
 "ONBOARDING_CHOOSE_RESTORE_METHOD_BACKUPS_BODY" = "Restaura el teu compte i els teus missatges des de la còpia de seguretat de Signal";
@@ -6467,7 +6470,7 @@
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_BODY_3_PAID" = "Tots els teus arxius multimèdia";
 
 /* Text for action button that opens a picker to choose an older local backup. */
-"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "Choose an Older Backup";
+"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "Selecciona una còpia de seguretat anterior";
 
 /* Text for action button confirming the restore. */
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_CONFIRM_ACTION" = "Restaura la còpia de seguretat";
@@ -8933,22 +8936,22 @@
 "SETTINGS_LOCAL_FILE_BACKUPS_LAST_BACKUP_DATE" = "Darrera còpia de seguretat";
 
 /* Message for an action sheet when a user cannot perform a remote backup because a local backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform a Signal Secure Backup because an on-device backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "No s'ha pogut fer una còpia de seguretat segura de Signal perquè hi ha una còpia de seguretat local en procés. Torna-ho a provar més tard.";
 
 /* Message for an action sheet when a user cannot perform a local backup because a remote backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform an on-device backup because a Signal Secure Backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "No s'ha pogut fer una còpia de seguretat local perquè hi ha una còpia de seguretat segura de Signal en procés. Torna-ho a provar més tard.";
 
 /* Footer text on the on-device backups settings page explaining how to restore a backup. */
 "SETTINGS_LOCAL_FILE_BACKUPS_RESTORE_FOOTER" = "Per restaurar una còpia de seguretat, torna a instal·lar Signal. Obre l'app, toca \"Restaurar o transferir\" i selecciona \"Còpies de seguretat locals\".";
 
 /* Label for the button that turns off on-device backups. */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "Turn Off & Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "Desactivar i eliminar les còpies de seguretat";
 
 /* Message shown on an action sheet when a user's backup fails to delete. Embeds {{ local file backup location }} */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "Your backup could not be deleted due to an error. You must manually delete the folder. In the Files app, go to “%1$@” and manually delete the folder and its contents. No new backups will be created.";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "S'ha produït un error i no s'ha pogut eliminar la teva còpia de seguretat. Hauràs d'eliminar manualment la carpeta. A l'aplicació Files, ves a \"%1$@\" i elimina manualment la carpeta i els seus continguts. No es crearan noves còpies de seguretat.";
 
 /* Title shown on an action sheet when a user's backup fails to delete */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "Couldn’t Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "No s'ha pogut eliminar la còpia de seguretat";
 
 /* Label for the row that shows the on-device backup recovery key. */
 "SETTINGS_LOCAL_FILE_BACKUPS_VIEW_RECOVERY_KEY" = "Veure clau de recuperació";
@@ -8999,10 +9002,10 @@
 "SETTINGS_NOTIFICATIONS" = "Notificacions";
 
 /* Header for the section of notification settings controlling the app icon's badge. */
-"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "App Badge";
+"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "Insígnia de l'app";
 
 /* Explanation for the switch controlling whether a notification is shown when a phone contact joins Signal. */
-"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "Show a notification when a phone contact joins Signal.";
+"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "Mostrar una notificació quan un contacte del telèfon s'uneixi a Signal.";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Activa";
@@ -9674,7 +9677,7 @@
 "SHARE_ACTION_MESSAGE" = "Missatge";
 
 /* Message for an action sheet shown when sharing fails because the device's date and time are incorrect. */
-"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "Your device’s date and time are incorrect, and Signal may not have sent your message. Open Settings to correct your device’s date and time.";
+"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "La data i l'hora del teu dispositiu no són correctes, i és possible que Signal no hagi enviat el teu missatge. Obre Ajustos per corregir la data i l'hora del teu dispositiu.";
 
 /* alert body when sharing file failed because of untrusted/changed identity keys */
 "SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT" = "El número de seguretat amb %1$@ ha canviat fa poc. Potser voleu verificar-lo a l'aplicació principal abans de reenviar-lo.";

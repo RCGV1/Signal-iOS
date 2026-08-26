@@ -2204,13 +2204,13 @@
 "CHOOSE_BACKUP_PLAN_TITLE" = "બેકઅપ પ્લાન પસંદ કરો";
 
 /* Text on a screen shown when the app can't be used until the user corrects their device's date and time. Embeds {{ the device's current date and time, in UTC }}. */
-"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "Your device’s time is %1$@ UTC.";
+"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "તમારા ડિવાઇસનો સમય છે %1$@ UTC.";
 
 /* Subtitle for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "Signal can’t be used while your device’s date and time are incorrect. Open Settings to correct them.";
+"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "તમારા ડિવાઇસની તારીખ અને સમય ખોટો હોય ત્યારે Signalનો ઉપયોગ કરી શકાતો નથી. તેમને સુધારવા માટે સેટિંગ્સ ખોલો.";
 
 /* Title for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_TITLE" = "Date is Inaccurate";
+"CLOCK_SKEW_APP_BLOCKING_TITLE" = "તારીખ અચોક્કસ છે";
 
 /* VoiceOver hint for an expanded collapse set button. */
 "COLLAPSE_SET_ACCESSIBILITY_HINT_COLLAPSE" = "અપડેટ છુપાવો";
@@ -2559,6 +2559,9 @@
 
 /* Message indicating that only administrators can send message to an announcement-only group. */
 "CONVERSATION_PICKER_BLOCKED_BY_ANNOUNCEMENT_ONLY" = "આ ગ્રુપને ફક્ત એડમિન જ મેસેજ મોકલી શકે છે.";
+
+/* Displayed at the bottom of chat picker in gray if no chats are selected. */
+"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "Choose a recipient";
 
 /* table section header for section containing groups */
 "CONVERSATION_PICKER_SECTION_GROUPS" = "ગ્રુપ";
@@ -5471,7 +5474,7 @@
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_BULLET_3" = "કોઈ પણ સમયે બેકઅપ બંધ કરો";
 
 /* Subtitle for a view introducing local file backups during the onboarding flow. */
-"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "Back up your messages to a folder on your device. Your backup is end-to-end encrypted and can be restored by installing a new copy of Signal and choosing “Restore or Transfer“.";
+"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "તમારા મેસેજનું તમારા ડિવાઇસ પર કોઈ ફોલ્ડરમાં બેકઅપ લો. તમારું બેકઅપ એન્ડ-ટૂ-એન્ડ એન્ક્રિપ્ટેડ છે અને Signal ની નવી કૉપિ ઇન્સ્ટોલ કરીને અને \"રિસ્ટોર અથવા ટ્રાન્સફર કરો\" પસંદ કરીને રિસ્ટોર કરી શકાય છે.";
 
 /* Title for a view introducing local file backups during the onboarding flow. */
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_TITLE" = "ડિવાઇસ પરના બેકઅપ";
@@ -5486,22 +5489,22 @@
 "LOCAL_FILE_BACKUPS_CHOOSE_FOLDER_TITLE" = "ફોલ્ડર પસંદ કરો";
 
 /* Warning shown when a user tries to enable local file backups with optimize media enabled */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "You have Optimize Signal Storage on. If you want to include all media in your on-device backup, turn the setting off.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "તમારું Signal સ્ટોરેજ ઓપ્ટિમાઇઝ કરવાનું ચાલુ છે. જો તમે તમારા ડિવાઇસ પરના બેકઅપમાં બધા મીડિયા શામેલ કરવા માંગતા હો, તો સેટિંગ બંધ કરો.";
 
 /* Message for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "Turning on “Optimize Signal storage“ will offload old media from your device. You can download it again at any time. It will also remove old media from your on-device backup.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "\"Signal સ્ટોરેજ ઓપ્ટિમાઇઝ કરો\" ચાલુ કરવાથી તમારા ડિવાઇસ પરથી જૂના મીડિયા ઓફલોડ થઈ જશે. તમે તેને કોઈ પણ સમયે ફરીથી ડાઉનલોડ કરી શકો છો. તે તમારા ડિવાઇસ પરના બેકઅપ પરથી જૂના મીડિયા પણ દૂર કરશે.";
 
 /* Title for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "Media Will Be Removed From Your On-Device Backup";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "તમારા ડિવાઇસ પરના બેકઅપ પરથી મીડિયા દૂર થઈ જશે";
 
 /* Action in a sheet warning the user about enabling Optimize Storage with local backups enabled, that turns on Optimize Storage. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "Turn on";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "ચાલુ કરો";
 
 /* Action in an action sheet offering to continue anyway. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "Continue Without Turning Off";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "બંધ કર્યા વિના આગળ વધો";
 
 /* Action in an action sheet offering to go to the optimize local storage setting. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "View Setting";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "સેટિંગ જુઓ";
 
 /* A string indicating that the user can search for a location */
 "LOCATION_PICKER_SEARCH_PLACEHOLDER" = "નામ અથવા સરનામાં દ્વારા શોધો";
@@ -6311,7 +6314,7 @@
 "NOTE_TO_SELF" = "પોતાના માટે નોંધ";
 
 /* Body for a notification shown when Signal can't fetch messages because the device's date and time are incorrect. */
-"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal can’t receive messages while your device’s date and time are incorrect. Open Settings to correct them.";
+"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal તમારા ડિવાઇસની તારીખ અને સમય ખોટો હોય ત્યારે મેસેજ પ્રાપ્ત કરી શકતું નથી. તેમને સુધારવા માટે સેટિંગ્સ ખોલો.";
 
 /* Body for a notification representing a message request. */
 "NOTIFICATION_BODY_INCOMING_MESSAGE_REQUEST" = "મેસેજની વિનંતી";
@@ -6410,10 +6413,10 @@
 "ONBOARDING_2FA_SKIP_PIN_ENTRY_TITLE" = "PIN એન્ટ્રી સ્કિપ કરો?";
 
 /* Subtitle for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "Choosing an older backup may result in lost messages or media.";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "જૂનું બેકઅપ પસંદ કરવાથી મેસેજ અથવા મીડિયા ખોવાઈ શકે છે.";
 
 /* Title for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "Choose a Backup to Restore";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "રિસ્ટોર કરવા માટે બેકઅપ પસંદ કરો";
 
 /* The body for the device transfer 'choice' view 'restore backup' option */
 "ONBOARDING_CHOOSE_RESTORE_METHOD_BACKUPS_BODY" = "તમારા Signal બેકઅપમાંથી તમારા એકાઉન્ટ અને મેસેજ રિસ્ટોર કરો";
@@ -6467,7 +6470,7 @@
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_BODY_3_PAID" = "તમારા બધા મીડિયા";
 
 /* Text for action button that opens a picker to choose an older local backup. */
-"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "Choose an Older Backup";
+"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "જૂનું બેકઅપ પસંદ કરો";
 
 /* Text for action button confirming the restore. */
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_CONFIRM_ACTION" = "બેકઅપ રિસ્ટોર કરો";
@@ -8933,22 +8936,22 @@
 "SETTINGS_LOCAL_FILE_BACKUPS_LAST_BACKUP_DATE" = "છેલ્લું બેકઅપ";
 
 /* Message for an action sheet when a user cannot perform a remote backup because a local backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform a Signal Secure Backup because an on-device backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "ઓન-ડિવાઇસ બેકઅપની પ્રગતિ ચાલુ હોય ત્યારે Signal સુરક્ષિત બેકઅપ કરી શકતા નથી. પછી ફરી પ્રયાસ કરો.";
 
 /* Message for an action sheet when a user cannot perform a local backup because a remote backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform an on-device backup because a Signal Secure Backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Signal સુરક્ષિત બેકઅપની પ્રગતિ ચાલુ હોય ત્યારે ઓન-ડિવાઇસ બેકઅપ કરી શકતા નથી. પછી ફરી પ્રયાસ કરો.";
 
 /* Footer text on the on-device backups settings page explaining how to restore a backup. */
 "SETTINGS_LOCAL_FILE_BACKUPS_RESTORE_FOOTER" = "બેકઅપ રિસ્ટોર કરવા માટે, Signalની નવી કૉપિ ઇન્સ્ટોલ કરો. ઍપ ખોલો, “રિસ્ટોર કરો કે ટ્રાન્સફર કરો” પર ટેપ કરો અને “ઓન-ડિવાઇસ બેકઅપ” પસંદ કરો.";
 
 /* Label for the button that turns off on-device backups. */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "Turn Off & Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "બંધ કરો અને બેકઅપ ડિલીટ કરો";
 
 /* Message shown on an action sheet when a user's backup fails to delete. Embeds {{ local file backup location }} */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "Your backup could not be deleted due to an error. You must manually delete the folder. In the Files app, go to “%1$@” and manually delete the folder and its contents. No new backups will be created.";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "એક એરરને કારણે તમારા બેકઅપને ડિલીટ કરી શક્યા નથી. તમારે ફોલ્ડરને જાતે ડિલીટ કરવું પડશે. Files ઍપમાં, “%1$@” પર જાઓ અને ફોલ્ડર અને તેમાં રહેલ વસ્તુઓને જાતે ડિલીટ કરો. કોઈ નવા બેકઅપ બનાવવામાં આવશે નહીં.";
 
 /* Title shown on an action sheet when a user's backup fails to delete */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "Couldn’t Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "બેકઅપ ડિલીટ ન કરી શક્યા";
 
 /* Label for the row that shows the on-device backup recovery key. */
 "SETTINGS_LOCAL_FILE_BACKUPS_VIEW_RECOVERY_KEY" = "રિકવરી કી જુઓ";
@@ -8999,10 +9002,10 @@
 "SETTINGS_NOTIFICATIONS" = "સૂચનાઓ";
 
 /* Header for the section of notification settings controlling the app icon's badge. */
-"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "App Badge";
+"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "ઍપ બૅજ";
 
 /* Explanation for the switch controlling whether a notification is shown when a phone contact joins Signal. */
-"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "Show a notification when a phone contact joins Signal.";
+"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "જ્યારે કોઈ ફોન સંપર્ક Signalમાં જોડાય ત્યારે નોટિફિકેશન બતાવો.";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "સક્રિય કરો";
@@ -9674,7 +9677,7 @@
 "SHARE_ACTION_MESSAGE" = "મેસેજ";
 
 /* Message for an action sheet shown when sharing fails because the device's date and time are incorrect. */
-"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "Your device’s date and time are incorrect, and Signal may not have sent your message. Open Settings to correct your device’s date and time.";
+"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "તમારા ડિવાઇસની તારીખ અને સમય ખોટા છે અને Signal તમારો મેસેજ મોકલી ન શક્યું હોય એવું બને. તમારા ડિવાઇસની તારીખ અને સમય સુધારવા સેટિંગ્સ ખોલો.";
 
 /* alert body when sharing file failed because of untrusted/changed identity keys */
 "SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT" = "%1$@ સાથેનો તમારો સલામતી નંબર તાજેતરમાં બદલાઈ ગયો છે. તમે તેને ફરીથી મોકલતા પહેલા મુખ્ય એપ્લિકેશનમાં ચકાસી શકો છો.";

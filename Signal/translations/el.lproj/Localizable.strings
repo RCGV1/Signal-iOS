@@ -2204,13 +2204,13 @@
 "CHOOSE_BACKUP_PLAN_TITLE" = "Επιλογή προγράμματος αντιγράφου ασφαλείας";
 
 /* Text on a screen shown when the app can't be used until the user corrects their device's date and time. Embeds {{ the device's current date and time, in UTC }}. */
-"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "Your device’s time is %1$@ UTC.";
+"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "Η ώρα στη συσκευή σου είναι %1$@ UTC.";
 
 /* Subtitle for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "Signal can’t be used while your device’s date and time are incorrect. Open Settings to correct them.";
+"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "Το Signal δεν μπορεί να χρησιμοποιείται όσο η ημερομηνία και η ώρα στη συσκευή σου είναι λανθασμένες. Άνοιξε τις Ρυθμίσεις για να τις διορθώσεις.";
 
 /* Title for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_TITLE" = "Date is Inaccurate";
+"CLOCK_SKEW_APP_BLOCKING_TITLE" = "Η ημερομηνία δεν είναι ακριβής";
 
 /* VoiceOver hint for an expanded collapse set button. */
 "COLLAPSE_SET_ACCESSIBILITY_HINT_COLLAPSE" = "Απόκρυψη ενημερώσεων";
@@ -2559,6 +2559,9 @@
 
 /* Message indicating that only administrators can send message to an announcement-only group. */
 "CONVERSATION_PICKER_BLOCKED_BY_ANNOUNCEMENT_ONLY" = "Μόνο οι διαχειριστές μπορούν να στέλνουν μηνύματα σε αυτή την ομάδα.";
+
+/* Displayed at the bottom of chat picker in gray if no chats are selected. */
+"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "Choose a recipient";
 
 /* table section header for section containing groups */
 "CONVERSATION_PICKER_SECTION_GROUPS" = "Ομάδες";
@@ -5471,7 +5474,7 @@
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_BULLET_3" = "Απενεργοποίηση αντιγράφων ασφαλείας ανά πάσα στιγμή";
 
 /* Subtitle for a view introducing local file backups during the onboarding flow. */
-"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "Back up your messages to a folder on your device. Your backup is end-to-end encrypted and can be restored by installing a new copy of Signal and choosing “Restore or Transfer“.";
+"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "Δημιούργησε αντίγραφα ασφαλείας των μηνυμάτων σου σε έναν φάκελο στη συσκευή σου. To αντίγραφo ασφαλείας σου είναι κρυπτογραφημένο από άκρο σε άκρο και μπορείς να το επαναφέρεις εγκαθιστώντας ένα νέο αντίγραφο του Signal και επιλέγοντας «Ανάκτηση ή Μεταφορά».";
 
 /* Title for a view introducing local file backups during the onboarding flow. */
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_TITLE" = "Αντίγραφα ασφαλείας στη συσκευή";
@@ -5486,22 +5489,22 @@
 "LOCAL_FILE_BACKUPS_CHOOSE_FOLDER_TITLE" = "Επιλογή φακέλου";
 
 /* Warning shown when a user tries to enable local file backups with optimize media enabled */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "You have Optimize Signal Storage on. If you want to include all media in your on-device backup, turn the setting off.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "Έχεις ενεργοποιήσει την επιλογή «Βελτιστοποίηση αποθηκευτικού χώρου Signal». Αν θέλεις να συμπεριλάβεις όλα τα αρχεία πολυμέσων στα αντίγραφο ασφαλείας της συσκευής σου, απενεργοποίησε τη ρύθμιση.";
 
 /* Message for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "Turning on “Optimize Signal storage“ will offload old media from your device. You can download it again at any time. It will also remove old media from your on-device backup.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "Η ενεργοποίηση της επιλογής «Βελτιστοποίηση αποθηκευτικού χώρου Signal» θα διαγράψει τα παλιά αρχεία πολυμέσων από τη συσκευή σου. Μπορείς να τα κατεβάσεις ξανά ανά πάσα στιγμή. Επίσης, θα διαγράψει τα παλιά αρχεία πολυμέσων από το αντίγραφο ασφαλείας στη συσκευή σου.";
 
 /* Title for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "Media Will Be Removed From Your On-Device Backup";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "Τα αρχεία πολυμέσων θα διαγραφούν από το αντίγραφο ασφαλείας που βρίσκεται στη συσκευή σου";
 
 /* Action in a sheet warning the user about enabling Optimize Storage with local backups enabled, that turns on Optimize Storage. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "Turn on";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "Ενεργοποίηση";
 
 /* Action in an action sheet offering to continue anyway. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "Continue Without Turning Off";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "Συνέχεια χωρίς απενεργοποίηση";
 
 /* Action in an action sheet offering to go to the optimize local storage setting. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "View Setting";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "Προβολή ρύθμισης";
 
 /* A string indicating that the user can search for a location */
 "LOCATION_PICKER_SEARCH_PLACEHOLDER" = "Εύρεση βάση ονόματος ή διεύθυνσης";
@@ -6311,7 +6314,7 @@
 "NOTE_TO_SELF" = "Μήνυμα σε μένα";
 
 /* Body for a notification shown when Signal can't fetch messages because the device's date and time are incorrect. */
-"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal can’t receive messages while your device’s date and time are incorrect. Open Settings to correct them.";
+"NOTIFICATION_BODY_CLOCK_SKEW" = "Το Signal δεν μπορεί να λαμβάνει μηνύματα όσο η ημερομηνία και η ώρα στη συσκευή σου είναι λανθασμένες. Άνοιξε τις Ρυθμίσεις για να τις διορθώσεις.";
 
 /* Body for a notification representing a message request. */
 "NOTIFICATION_BODY_INCOMING_MESSAGE_REQUEST" = "Αίτημα μηνύματος";
@@ -6410,10 +6413,10 @@
 "ONBOARDING_2FA_SKIP_PIN_ENTRY_TITLE" = "Παράλειψη της εισαγωγής PIN;";
 
 /* Subtitle for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "Choosing an older backup may result in lost messages or media.";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "Η επιλογή ενός παλαιότερου αντιγράφου ασφαλείας μπορεί να οδηγήσει σε απώλεια μηνυμάτων ή πολυμέσων.";
 
 /* Title for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "Choose a Backup to Restore";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "Επίλεξε ένα αντίγραφο ασφαλείας για επαναφορά";
 
 /* The body for the device transfer 'choice' view 'restore backup' option */
 "ONBOARDING_CHOOSE_RESTORE_METHOD_BACKUPS_BODY" = "Επανάφερε τον λογαριασμό και τα μηνύματά σου από τα αντίγραφα ασφαλείας Signal";
@@ -6467,7 +6470,7 @@
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_BODY_3_PAID" = "Όλα τα πολυμέσα σου";
 
 /* Text for action button that opens a picker to choose an older local backup. */
-"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "Choose an Older Backup";
+"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "Επίλεξε ένα παλαιότερο αντίγραφο ασφαλείας";
 
 /* Text for action button confirming the restore. */
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_CONFIRM_ACTION" = "Επαναφορά αντίγραφου ασφαλείας";
@@ -8933,22 +8936,22 @@
 "SETTINGS_LOCAL_FILE_BACKUPS_LAST_BACKUP_DATE" = "Τελευταίο αντίγραφο ασφαλείας";
 
 /* Message for an action sheet when a user cannot perform a remote backup because a local backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform a Signal Secure Backup because an on-device backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "Δεν ήταν δυνατή η δημιουργία Ασφαλούς αντιγράφου Signal, καθώς δημιουργείται αντίγραφο ασφαλείας στη συσκευή. Δοκίμασε ξανά αργότερα.";
 
 /* Message for an action sheet when a user cannot perform a local backup because a remote backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform an on-device backup because a Signal Secure Backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Δεν ήταν δυνατή η δημιουργία αντιγράφου ασφαλείας στη συσκευή, καθώς δημιουργείται Ασφαλές αντίγραφο Signal. Δοκίμασε ξανά αργότερα.";
 
 /* Footer text on the on-device backups settings page explaining how to restore a backup. */
 "SETTINGS_LOCAL_FILE_BACKUPS_RESTORE_FOOTER" = "Για να ανακτήσεις ένα αντίγραφο ασφαλείας, εγκατάστησε από την αρχή το Signal. Άνοιξε την εφαρμογή, πάτα «Επαναφορά ή μεταφορά» και επίλεξε «Δημιουργία αντιγράφου ασφαλείας στη συσκευή».";
 
 /* Label for the button that turns off on-device backups. */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "Turn Off & Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "Απενεργοποίηση και διαγραφή αντιγράφων ασφαλείας";
 
 /* Message shown on an action sheet when a user's backup fails to delete. Embeds {{ local file backup location }} */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "Your backup could not be deleted due to an error. You must manually delete the folder. In the Files app, go to “%1$@” and manually delete the folder and its contents. No new backups will be created.";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "Το αντίγραφο ασφαλείας σου δεν μπόρεσε να διαγραφεί εξαιτίας ενός σφάλματος. Πρέπει να διαγράψεις χειροκίνητα τον φάκελο. Στην εφαρμογή Αρχείων, πήγαινε στο «%1$@» και διάγραψε χειροκίνητα τον φάκελο και τα περιεχόμενά του. Δεν θα δημιουργηθούν νέα αντίγραφα ασφαλείας.";
 
 /* Title shown on an action sheet when a user's backup fails to delete */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "Couldn’t Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "Η διαγραφή αντιγράφων ασφαλείας δεν ήταν δυνατή";
 
 /* Label for the row that shows the on-device backup recovery key. */
 "SETTINGS_LOCAL_FILE_BACKUPS_VIEW_RECOVERY_KEY" = "Προβολή κλειδιού ανάκτησης";
@@ -8999,10 +9002,10 @@
 "SETTINGS_NOTIFICATIONS" = "Ειδοποιήσεις";
 
 /* Header for the section of notification settings controlling the app icon's badge. */
-"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "App Badge";
+"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "Σήμα εφαρμογής";
 
 /* Explanation for the switch controlling whether a notification is shown when a phone contact joins Signal. */
-"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "Show a notification when a phone contact joins Signal.";
+"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "Προβολή ειδοποίησης όταν μια επαφή σου έρχεται στο Signal.";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Ενεργοποίηση";
@@ -9674,7 +9677,7 @@
 "SHARE_ACTION_MESSAGE" = "Μήνυμα";
 
 /* Message for an action sheet shown when sharing fails because the device's date and time are incorrect. */
-"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "Your device’s date and time are incorrect, and Signal may not have sent your message. Open Settings to correct your device’s date and time.";
+"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "Η ημερομηνία και η ώρα της συσκευής σου είναι λανθασμένες και το Signal ενδέχεται να μην έστειλε το μήνυμά σου. Άνοιξε τις Ρυθμίσεις για να διορθώσεις την ημερομηνία και την ώρα στη συσκευή σου.";
 
 /* alert body when sharing file failed because of untrusted/changed identity keys */
 "SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT" = "Ο αριθμός ασφαλείας με τον/την %1$@ άλλαξε πρόσφατα. Ίσως θες να τον επιβεβαιώσεις πριν την επαναποστολή.";

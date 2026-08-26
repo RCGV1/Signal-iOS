@@ -2204,13 +2204,13 @@
 "CHOOSE_BACKUP_PLAN_TITLE" = "เลือกแพ็กเกจสำรองข้อมูล";
 
 /* Text on a screen shown when the app can't be used until the user corrects their device's date and time. Embeds {{ the device's current date and time, in UTC }}. */
-"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "Your device’s time is %1$@ UTC.";
+"CLOCK_SKEW_APP_BLOCKING_DEVICE_TIME_FORMAT" = "เวลาบนอุปกรณ์ของคุณคือ %1$@ UTC";
 
 /* Subtitle for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "Signal can’t be used while your device’s date and time are incorrect. Open Settings to correct them.";
+"CLOCK_SKEW_APP_BLOCKING_SUBTITLE" = "ไม่สามารถใช้งาน Signal ได้หากวันที่และเวลาบนอุปกรณ์ของคุณไม่ถูกต้อง โปรดเปิดการตั้งค่าเพื่อแก้ไขข้อมูล";
 
 /* Title for a screen shown when the app can't be used until the user corrects their device's date and time. */
-"CLOCK_SKEW_APP_BLOCKING_TITLE" = "Date is Inaccurate";
+"CLOCK_SKEW_APP_BLOCKING_TITLE" = "วันที่ไม่ถูกต้อง";
 
 /* VoiceOver hint for an expanded collapse set button. */
 "COLLAPSE_SET_ACCESSIBILITY_HINT_COLLAPSE" = "ซ่อนการอัปเดต";
@@ -2559,6 +2559,9 @@
 
 /* Message indicating that only administrators can send message to an announcement-only group. */
 "CONVERSATION_PICKER_BLOCKED_BY_ANNOUNCEMENT_ONLY" = "เฉพาะผู้ดูแลเท่านั้นที่ส่งข้อความไปยังกลุ่มนี้ได้";
+
+/* Displayed at the bottom of chat picker in gray if no chats are selected. */
+"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "Choose a recipient";
 
 /* table section header for section containing groups */
 "CONVERSATION_PICKER_SECTION_GROUPS" = "กลุ่ม";
@@ -5471,7 +5474,7 @@
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_BULLET_3" = "ปิดใช้งานการสำรองข้อมูลได้ทุกเมื่อ";
 
 /* Subtitle for a view introducing local file backups during the onboarding flow. */
-"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "Back up your messages to a folder on your device. Your backup is end-to-end encrypted and can be restored by installing a new copy of Signal and choosing “Restore or Transfer“.";
+"LOCAL_FILE_BACKUP_ONBOARDING_INTRO_SUBTITLE" = "สำรองข้อความของคุณไว้ในโฟลเดอร์บนอุปกรณ์ ข้อมูลสำรองนี้จะถูกเข้ารหัสตั้งแต่ต้นทางถึงปลายทางและสามารถกู้คืนได้โดยการติดตั้ง Signal ใหม่แล้วเลือก “กู้คืนหรือถ่ายโอน“";
 
 /* Title for a view introducing local file backups during the onboarding flow. */
 "LOCAL_FILE_BACKUP_ONBOARDING_INTRO_TITLE" = "สำรองข้อมูลไว้บนอุปกรณ์";
@@ -5486,22 +5489,22 @@
 "LOCAL_FILE_BACKUPS_CHOOSE_FOLDER_TITLE" = "เลือกโฟลเดอร์";
 
 /* Warning shown when a user tries to enable local file backups with optimize media enabled */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "You have Optimize Signal Storage on. If you want to include all media in your on-device backup, turn the setting off.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET" = "ตัวเลือกเพิ่มประสิทธิภาพพื้นที่จัดเก็บของ Signal ของคุณเปิดใช้งานอยู่ โปรดปิดใช้งานตัวเลือกนี้หากคุณต้องการให้การสำรองข้อมูลไว้บนอุปกรณ์เก็บรวบรวมไฟล์สื่อทั้งหมด";
 
 /* Message for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "Turning on “Optimize Signal storage“ will offload old media from your device. You can download it again at any time. It will also remove old media from your on-device backup.";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_BODY" = "การเปิดใช้งานตัวเลือก “เพิ่มประสิทธิภาพพื้นที่จัดเก็บของ Signal“ จะทำให้ไฟล์สื่อที่เก่าแล้วถูกออฟโหลดจากอุปกรณ์ของคุณ (โดยคุณสามารถดาวน์โหลดไฟล์กลับมาได้ทุกเมื่อ) นอกจากนี้ นี่ยังจะทำให้ไฟล์สื่อที่เก่าแล้วถูกลบออกจากข้อมูลสำรองบนอุปกรณ์ของคุณอีกด้วย";
 
 /* Title for a sheet warning the user about enabling Optimize Storage with local backups enabled. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "Media Will Be Removed From Your On-Device Backup";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TITLE" = "ไฟล์สื่อจะถูกลบออกจากข้อมูลสำรองบนอุปกรณ์ของคุณ";
 
 /* Action in a sheet warning the user about enabling Optimize Storage with local backups enabled, that turns on Optimize Storage. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "Turn on";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_2_TURN_ON" = "เปิด";
 
 /* Action in an action sheet offering to continue anyway. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "Continue Without Turning Off";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_CONTINUE" = "ดำเนินการต่อโดยไม่ปิดตัวเลือก";
 
 /* Action in an action sheet offering to go to the optimize local storage setting. */
-"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "View Setting";
+"LOCAL_FILE_BACKUPS_OPTIMIZE_MEDIA_WARNING_ACTION_SHEET_VIEW_SETTING" = "ดูการตั้งค่า";
 
 /* A string indicating that the user can search for a location */
 "LOCATION_PICKER_SEARCH_PLACEHOLDER" = "ค้นด้วยชื่อหรือที่อยู่";
@@ -6311,7 +6314,7 @@
 "NOTE_TO_SELF" = "บันทึกส่วนตัว";
 
 /* Body for a notification shown when Signal can't fetch messages because the device's date and time are incorrect. */
-"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal can’t receive messages while your device’s date and time are incorrect. Open Settings to correct them.";
+"NOTIFICATION_BODY_CLOCK_SKEW" = "Signal จะไม่สามารถรับข้อความได้หากวันที่และเวลาบนอุปกรณ์ของคุณไม่ถูกต้อง โปรดเปิดการตั้งค่าเพื่อแก้ไขข้อมูล";
 
 /* Body for a notification representing a message request. */
 "NOTIFICATION_BODY_INCOMING_MESSAGE_REQUEST" = "คำขอส่งข้อความ";
@@ -6410,10 +6413,10 @@
 "ONBOARDING_2FA_SKIP_PIN_ENTRY_TITLE" = "ข้ามการใส่รหัส PIN หรือไม่?";
 
 /* Subtitle for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "Choosing an older backup may result in lost messages or media.";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_SUBTITLE" = "การเลือกข้อมูลสำรองเก่าอาจทำให้ข้อความหรือไฟล์สื่อสูญหาย";
 
 /* Title for the sheet that lets users pick from available local backups to restore. */
-"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "Choose a Backup to Restore";
+"ONBOARDING_CHOOSE_BACKUP_SHEET_TITLE" = "เลือกข้อมูลสำรองที่ต้องการกู้คืน";
 
 /* The body for the device transfer 'choice' view 'restore backup' option */
 "ONBOARDING_CHOOSE_RESTORE_METHOD_BACKUPS_BODY" = "กู้คืนบัญชีและข้อความของคุณจากแพ็กเกจสำรองข้อมูลของ Signal";
@@ -6467,7 +6470,7 @@
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_BODY_3_PAID" = "ไฟล์สื่อทั้งหมด";
 
 /* Text for action button that opens a picker to choose an older local backup. */
-"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "Choose an Older Backup";
+"ONBOARDING_CONFIRM_BACKUP_RESTORE_CHOOSE_OLDER_ACTION" = "เลือกข้อมูลสำรองที่เก่ากว่านี้";
 
 /* Text for action button confirming the restore. */
 "ONBOARDING_CONFIRM_BACKUP_RESTORE_CONFIRM_ACTION" = "กู้คืนจากข้อมูลสำรอง";
@@ -8933,22 +8936,22 @@
 "SETTINGS_LOCAL_FILE_BACKUPS_LAST_BACKUP_DATE" = "การสำรองข้อมูลครั้งล่าสุด";
 
 /* Message for an action sheet when a user cannot perform a remote backup because a local backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform a Signal Secure Backup because an on-device backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "ไม่สามารถใช้งานการสำรองข้อมูลที่ปลอดภัยของ Signal ได้เนื่องจากกำลังดำเนินการสำรองข้อมูลไว้บนอุปกรณ์ โปรดลองอีกครั้งในภายหลัง";
 
 /* Message for an action sheet when a user cannot perform a local backup because a remote backup is in progress */
-"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Unable to perform an on-device backup because a Signal Secure Backup is in progress. Try again later.";
+"SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "ไม่สามารถใช้งานการสำรองข้อมูลไว้บนอุปกรณ์ได้เนื่องจากกำลังดำเนินการสำรองข้อมูลที่ปลอดภัยของ Signal โปรดลองอีกครั้งในภายหลัง";
 
 /* Footer text on the on-device backups settings page explaining how to restore a backup. */
 "SETTINGS_LOCAL_FILE_BACKUPS_RESTORE_FOOTER" = "กู้คืนข้อมูลสำรองด้วยการติดตั้ง Signal ใหม่ จากนั้นเปิดแอปแล้วแตะที่ “กู้คืนหรือถ่ายโอน” แล้วเลือก “สำรองข้อมูลไว้บนอุปกรณ์”";
 
 /* Label for the button that turns off on-device backups. */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "Turn Off & Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURN_OFF" = "ปิดใช้งานและลบข้อมูลสำรอง";
 
 /* Message shown on an action sheet when a user's backup fails to delete. Embeds {{ local file backup location }} */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "Your backup could not be deleted due to an error. You must manually delete the folder. In the Files app, go to “%1$@” and manually delete the folder and its contents. No new backups will be created.";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_MESSAGE_FORMAT" = "ไม่สามารถลบข้อมูลสำรองของคุณได้เนื่องจากมีข้อผิดพลาดเกิดขึ้น โปรดลบโฟลเดอร์ดังกล่าวด้วยตัวเอง โดยเปิดแอปไฟล์แล้วไปที่ “%1$@” จากนั้นให้ลบโฟลเดอร์และไฟล์ทั้งหมด ซึ่งระบบจะไม่สำรองข้อมูลใหม่ขึ้นอีก";
 
 /* Title shown on an action sheet when a user's backup fails to delete */
-"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "Couldn’t Delete Backup";
+"SETTINGS_LOCAL_FILE_BACKUPS_TURNING_OFF_ERROR_TITLE" = "ไม่สามารถลบข้อมูลสำรอง";
 
 /* Label for the row that shows the on-device backup recovery key. */
 "SETTINGS_LOCAL_FILE_BACKUPS_VIEW_RECOVERY_KEY" = "ดูกุญแจกู้คืน";
@@ -8999,10 +9002,10 @@
 "SETTINGS_NOTIFICATIONS" = "การแจ้งเตือน";
 
 /* Header for the section of notification settings controlling the app icon's badge. */
-"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "App Badge";
+"SETTINGS_NOTIFICATIONS_APP_BADGE_SECTION" = "ป้ายกำกับแอป";
 
 /* Explanation for the switch controlling whether a notification is shown when a phone contact joins Signal. */
-"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "Show a notification when a phone contact joins Signal.";
+"SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "แจ้งเตือนเมื่อผู้ติดต่อบนโทรศัพท์เริ่มใช้ Signal";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "เปิดใช้";
@@ -9674,7 +9677,7 @@
 "SHARE_ACTION_MESSAGE" = "ข้อความ";
 
 /* Message for an action sheet shown when sharing fails because the device's date and time are incorrect. */
-"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "Your device’s date and time are incorrect, and Signal may not have sent your message. Open Settings to correct your device’s date and time.";
+"SHARE_EXTENSION_FAILED_SENDING_BECAUSE_CLOCK_SKEW_MESSAGE" = "เนื่องจากวันที่และเวลาบนอุปกรณ์ของคุณไม่ถูกต้อง จึงอาจทำให้ Signal ไม่สามารถส่งข้อความของคุณได้ โปรดเปิดการตั้งค่าเพื่อแก้ไขวันที่และเวลาบนอุปกรณ์คุณ";
 
 /* alert body when sharing file failed because of untrusted/changed identity keys */
 "SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT" = "หมายเลขความปลอดภัยของคุณกับ %1$@ ได้เปลี่ยนไปเมื่อไม่นานนี้ คุณอาจต้องการตรวจยืนยันอีกครั้งในแอปหลักก่อนจะส่งอีกครั้ง";
