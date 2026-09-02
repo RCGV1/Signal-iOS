@@ -239,7 +239,7 @@
 "APP_LAUNCH_FAILURE_DATABASE_RECOVERY_ACTION_TITLE" = "رېمونت قىلىش";
 
 /* Action in an action sheet offering to exit the app. */
-"APP_LAUNCH_FAILURE_EXIT_APP_ACTION_TITLE" = "Exit Signal";
+"APP_LAUNCH_FAILURE_EXIT_APP_ACTION_TITLE" = "سىگنالدىن چىقىڭ";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "ئەڭ يېڭى نەشرىدىكى Signal غا يۈكسەلتىڭ.";
@@ -254,10 +254,10 @@
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal ئېچىلمىدى";
 
 /* Message for an error sheet shown when the app cannot launch because the device is out of storage space. Embeds 1:{{ the localized name of the user's device model, e.g. iPhone }}; 2:{{ an amount of storage space as a file size, e.g. 1 GB }}. */
-"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_MESSAGE_FORMAT" = "Signal can’t open because your %1$@ is out of storage space. Free up at least %2$@, then reopen Signal.\n\nGo to iOS Settings > General > Storage and remove apps you don't use, delete large videos from your Photos app or other apps, and delete downloaded music and media.";
+"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_MESSAGE_FORMAT" = "Signal ئېچىلمىدى چۈنكى سىزنىڭ %1$@ ڭىزنىڭ ساقلاش بوشلۇقى توشۇپ كەتكەن. ئاز بولغاندىمۇ %2$@ بوشلۇقنى بىكارلاڭ، ئۇنىڭدىن كېيىن Signal نى قايتا ئېچىڭ.\n\n«iOS تەڭشەكلىرى >(General) ئومۇمىي > ساقلاش بوشلۇقى » غا كىرىپ، ئىشلەتمەيدىغان ئەپلەرنى ئۆچۈرۈڭ، سۈرەتلەر ئەپى ياكى باشقا ئەپلەردىكى چوڭ ھەجىمدىكى سىنلارنى ئۆچۈرۈڭ ۋە چۈشۈرۈۋالغان مۇزىكا ۋە مېدىيا ھۆججەتلىرىنى ئۆچۈرۈڭ.";
 
 /* Title for an error sheet shown when the app cannot launch because the device is out of storage space. */
-"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_TITLE" = "Not Enough Storage Space";
+"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_TITLE" = "ساقلاش بوشلۇقى يېتەرلىك ئەمەس";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "كونا ئەسكۈنىڭىزدىن يوللىغان سانلىق مەلۇماتنى ئەسلىگە كەلتۈرگىلى بولمىدى. support@signal.org غا سازلاش خاتىرىسى ئەۋەتىپ بۇ كاشىلىنى ھەل قىلىشىمىزغا ياردەم قىلىڭ.  ئەگەر Signal نى قايتا ئورناتسىڭىز ئۇچۇر تارىخىڭىزنى يوقىتىشىڭىز مۇمكىن.";
@@ -2126,13 +2126,13 @@
 "CHAT_LIST_FILTERED_BY_UNREAD_CLEAR_BUTTON" = "ئوقۇلمىغانلارنى سۈزۈش";
 
 /* Title shown on chat list banner for restoring media from a backup is finished */
-"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_FINISHED_TITLE" = "Attachment Restore Complete";
+"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_FINISHED_TITLE" = "قوشۇمچە ھۆججەتلەرنى ئەسلىگە كەلتۈرۈش تاماملاندى";
 
 /* Progress label showing bytes restored from an on-device backup. Embeds {{ %1$@ formatted bytes restored, %2$@ formatted total bytes to restore }}. */
-"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_PROGRESS_FORMAT" = "%1$@ of %2$@";
+"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_PROGRESS_FORMAT" = "%1$@ نىڭ%2$@";
 
 /* Title shown on the chat list banner while restoring attachments from an on-device backup. */
-"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_TITLE" = "Restoring Attachments";
+"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_TITLE" = "قوشۇمچە ھۆججەتلەرنى ئەسلىگە كەلتۈرۈش";
 
 /* Message shown in the chat list when the chat list is empty. */
 "CHAT_LIST_NO_CHATS_SUBTITLE" = "يېقىنقى پاراڭلار بۇ يەردە كۆرۈنىدۇ.";
@@ -2552,7 +2552,7 @@
 "CONVERSATION_PICKER_BLOCKED_BY_ANNOUNCEMENT_ONLY" = "گۇرۇپپىغا پەقەت باشقۇرغۇچىلارلا ئۇچۇر يوللىيالايدۇ.";
 
 /* Displayed at the bottom of chat picker in gray if no chats are selected. */
-"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "Choose a recipient";
+"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "بىر تاپشۇرۇۋالغۇچىنى تاللاڭ";
 
 /* table section header for section containing groups */
 "CONVERSATION_PICKER_SECTION_GROUPS" = "گۇرۇپپا";
@@ -3164,10 +3164,10 @@
 "DEVICE_TRANSFER_STATUS_NEW_DEVICE_CONNECTING_MESSAGE" = "كونا ئۈسكۈنىڭىزنى ئېلىپ كېلىڭ، Wi-Fi ۋە كۆكچىشنىڭ قوزغىتىلغانلىقىنى جەزملەشتۈرۈڭ.";
 
 /* Description message on new device displayed during device transfer when using WiFiAware. */
-"DEVICE_TRANSFER_STATUS_NEW_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "Bring your old device nearby, and make sure Wi-Fi and Bluetooth are enabled. Select this device from the list of devices on the old device.  If device is not visible on old device, select 'Pair New Device' below.";
+"DEVICE_TRANSFER_STATUS_NEW_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "كونا ئۈسكۈنىڭىزنى ئېلىپ كېلىڭ، Wi-Fi ۋە كۆكچىشنىڭ قوزغىتىلغانلىقىنى جەزملەشتۈرۈڭ. كونا ئۈسكۈنىدىكى ئۈسكۈنىلەر تىزىملىكىدىن بۇ ئۈسكۈنىنى تاللاڭ.  ئەگەر كونا ئۈسكۈنىدە بۇ ئۈسكۈنە كۆرۈنمىسە، تۆۋەندىكى «يېڭى ئۈسكۈنىنى جۈپلەش»نى تاللاڭ.";
 
 /* Title for paring an old device to transfer to. */
-"DEVICE_TRANSFER_STATUS_NEW_DEVICE_PAIR_DEVICE" = "Pair a new device";
+"DEVICE_TRANSFER_STATUS_NEW_DEVICE_PAIR_DEVICE" = "يېڭى ئۈسكۈنىنى جۈپلەش";
 
 /* Status message on new device when transfer is starting. */
 "DEVICE_TRANSFER_STATUS_NEW_DEVICE_STARTING" = "كونا ئۈسكۈنىگە ئۇلىنىشنى كۈتىۋاتىدۇ…";
@@ -3194,16 +3194,16 @@
 "DEVICE_TRANSFER_STATUS_OLD_DEVICE_CONNECTING_MESSAGE" = "يېڭى ئۈسكۈنىڭىزنى ئېلىپ كېلىڭ، Wi-Fi ۋە كۆكچىشنىڭ قوزغىتىلغانلىقىنى جەزملەشتۈرۈڭ.";
 
 /* Description message on old device displayed during device connection when using WiFiAware. */
-"DEVICE_TRANSFER_STATUS_OLD_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "Bring your new device nearby, and make sure Wi-Fi and Bluetooth are enabled.";
+"DEVICE_TRANSFER_STATUS_OLD_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "يېڭى ئۈسكۈنىڭىزنى ئېلىپ كېلىڭ، Wi-Fi ۋە كۆكچىشنىڭ قوزغىتىلغانلىقىنى جەزملەشتۈرۈڭ.";
 
 /* Status message on old device when transfer is starting. */
 "DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING" = "يېڭى ئۈسكۈنىگە ئۇلىنىشنى كۈتىۋاتىدۇ…";
 
 /* Status message on old device when WiFiAware transfer is starting. */
-"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE" = "Select new device to connect to…";
+"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE" = "…غا ئۇلىماقچى بولغان يېڭى ئۈسكۈنىنى تاللاش";
 
 /* Description message on old device displayed during device discovery when using WiFiAware. */
-"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE_MESSAGE" = "Select the new device from the list of paired devices below. If the new device is not visible, select 'Pair a new device' to begin the process.";
+"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE_MESSAGE" = "تۆۋەندىكى جۈپلەنگەن ئۈسكۈنىلەر تىزىملىكىدىن يېڭى ئۈسكۈنىنى تاللاڭ. ئەگەر يېڭى ئۈسكۈنە كۆرۈنمىسە، «يېڭى ئۈسكۈنىنى جۈپلەش»نى تاللاپ جەرياننى باشلاڭ.";
 
 /* table cell label in conversation settings */
 "DISAPPEARING_MESSAGES" = "غايىب ئۇچۇرلار";
@@ -4958,7 +4958,7 @@
 "HOME_VIEW_TITLE_SELECT_CHATS" = "پاراڭلارنى تاللاش";
 
 /* Title for the mute duration menu in the toolbar of the chat list if multi-select is active. */
-"HOME_VIEW_TOOLBAR_MUTE_MENU_TITLE" = "Mute selected chats for…";
+"HOME_VIEW_TOOLBAR_MUTE_MENU_TITLE" = "… ئۈچۈن تاللانغان پاراڭلارنى ئۈنسىزلاندۇرۇش";
 
 /* Title 'Read All' button in the toolbar of the ChatList if multi-section is active. */
 "HOME_VIEW_TOOLBAR_READ_ALL" = "ھەممىسى ئوقۇلغان";
@@ -5456,10 +5456,10 @@
 "LOCAL_BACKUPS_SELECT_HERO_SHEET_TITLE" = "زاپاسلاش ھۆججەت قىسقۇچىڭىزنى تاللاڭ";
 
 /* Message for an action sheet informing the user we were unable to save their local backup location */
-"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_MESSAGE" = "Something went wrong and the folder location you selected couldn’t be saved. Try again. If this problem persists, please contact support.";
+"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_MESSAGE" = "بىرەر خاتالىق كۆرۈلۈپ، سىز تاللىغان ھۆججەت قىسقۇچنىڭ ئورنىنى ساقلىغىلى بولمىدى. قايتا سىناڭ. ئەگەر بۇ مەسىلە داۋاملاشسا، ياردەم مەركىزى بىلەن ئالاقىلىشىڭ.";
 
 /* Title for an action sheet informing the user we were unable to save their local backup location */
-"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_TITLE" = "Couldn’t Save Folder Location";
+"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_TITLE" = "ھۆججەت قىسقۇچنىڭ ئورنىنى ساقلىغىلى بولمىدى";
 
 /* Button for a sheet asking the user to choose a new local file backup folder */
 "LOCAL_FILE_BACKUP_CHOOSE_NEW_FOLDER_SHEET_BUTTON" = "قىسقۇچ تاللاش";
@@ -5528,16 +5528,16 @@
 "LONG_TEXT_VIEW_TITLE" = "ئۇچۇر";
 
 /* Message for a sheet warning the user that their device is low on storage space. Embeds 1:{{ the localized name of the user's device model, e.g. iPhone }}; 2:{{ an amount of storage space as a file size, e.g. 1 GB }}. */
-"LOW_DISK_SPACE_WARNING_SHEET_MESSAGE_FORMAT" = "Your %1$@ is running low on storage space. If it fills up, Signal will stop working and you could lose data. Free up at least %2$@ of space.";
+"LOW_DISK_SPACE_WARNING_SHEET_MESSAGE_FORMAT" = "سىزنىڭ %1$@ ڭىزنىڭ ساقلاش بوشلۇقى يېتەرلىك ئەمەس. ئەگەر ئۇ توشۇپ كەتسە Signal ئىشلەشتىن توختايدۇ ھەم سىز سانلىق-مەلۇماتلىرىڭىزنى يوقىتىپ قويۇشىڭىز مۇمكىن. ئاز بولغاندىمۇ %2$@ بوشلۇقنى بىكارلاڭ.";
 
 /* A suggestion for freeing up storage space, on a sheet warning the user that their device is low on storage space. */
-"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_CAMERA_ROLL_MEDIA" = "Delete large videos from your Photos app, Signal, or other messaging apps";
+"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_CAMERA_ROLL_MEDIA" = "چوڭ ھەجىملىك سىنلارنى سۈرەتلەر ئەپى، Signal، ۋەياكى باشقا ئۇچۇرلىشىش ئەپلىرىدىن ئۆچۈرۈڭ";
 
 /* A suggestion for freeing up storage space, on a sheet warning the user that their device is low on storage space. */
-"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_DOWNLOADED_MEDIA" = "Delete downloaded music or other media";
+"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_DOWNLOADED_MEDIA" = "چۈشۈرۈلگەن مۇزىكا ياكى باشقا مېدىيانى ئۆچۈرۈڭ";
 
 /* A suggestion for freeing up storage space, on a sheet warning the user that their device is low on storage space. */
-"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_REMOVE_APPS" = "Go to iOS Settings > General > Storage. Review the recommendations and remove apps you don't use";
+"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_REMOVE_APPS" = "«تەڭشەكلەر> (General) ئومۇمىي> ساقلاش بوشلۇقى»غا كىرىڭ. تەكلىپلەرنى كۆرۈپ چىقىڭ ۋە ئشلەتمەيدىغان ئەپلەرنى چىقىرىۋېتىڭ";
 
 /* Title for a sheet warning the user that their device is low on storage space. */
 "LOW_DISK_SPACE_WARNING_SHEET_TITLE" = "ساقلاش بوشلۇقى ئاز";
@@ -8951,16 +8951,16 @@
 "SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "ئۈسكۈنىدە زاپاسلاش داۋاملىشىۋاتقاچقا، Signal بىخەتەر زاپاسلانمىلىرىنى ئىجرا قىلغىلى بولمىدى. سەل تۇرۇپ قايتا سىناڭ.";
 
 /* Label for a progress bar while attachments are being copied for an on-device backup. Embeds 1:{{ percentage complete }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_COPYING_ATTACHMENTS" = "Copying attachments (%1$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_COPYING_ATTACHMENTS" = "كۆپەيتىلگەن قوشۇمچە ھۆججەتلەر (%1$@)";
 
 /* Label for a progress bar while the attachments are being prepared for an on-device backup. Embeds 1:{{ percentage complete }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_ATTACHMENTS" = "Preparing attachments (%1$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_ATTACHMENTS" = "تەييارلانغان قوشۇمچە ھۆججەتلەر (%1$@)";
 
 /* Label for a progress bar while the on-device backup is being prepared. Embeds 1:{{ percentage complete }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_BACKUP" = "Preparing backup (%1$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_BACKUP" = "زاپاسلاش قۇرۇلىۋاتىدۇ (%1$@)";
 
 /* Label for a progress bar while attachments are being restored for an on-device backup. Embeds {{%1$@ completed bytes restored, %2$@ total bytes to restore  }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_RESTORING_ATTACHMENTS" = "Restoring attachments (%1$@ of %2$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_RESTORING_ATTACHMENTS" = "ئەسلىگە كەلتۈرۈلگەن قوشۇمچە ھۆججەتلەر (%2$@ نىڭ %1$@ تى)";
 
 /* Message for an action sheet when a user cannot perform a local backup because a remote backup is in progress */
 "SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "Signal بىخەتەر زاپاسلانمىلىرى داۋاملىشىۋاتقاچقا، ئۈسكۈنىدە زاپاسلاشنى ئىجرا قىلغىلى بولمىدى. سەل تۇرۇپ قايتا سىناڭ.";
@@ -9032,22 +9032,22 @@
 "SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "تېلېفون ئالاقە تىزىملىكىڭىزدىكى بىرى Signal غا قوشۇلغاندا ئۇقتۇرۇشنى كۆرسىتىش.";
 
 /* Label for a switch controlling whether reactions to your messages generate notifications. */
-"SETTINGS_NOTIFICATIONS_REACTIONS" = "Reaction Notifications";
+"SETTINGS_NOTIFICATIONS_REACTIONS" = "ئىنكاس قايتۇرۇش ئۇقتۇرۇشلىرى";
 
 /* Explanation for the switch controlling whether reactions to your messages generate notifications. */
-"SETTINGS_NOTIFICATIONS_REACTIONS_FOOTER" = "Show notifications for reactions to messages you send.";
+"SETTINGS_NOTIFICATIONS_REACTIONS_FOOTER" = "ئەۋەتكەن ئۇچۇرلىرىڭىزغا بېرىلگەن ئىنكاسلارنىڭ ئۇقتۇرۇشلىرىنى كۆرسىتىش.";
 
 /* Label for a button that resets all notification settings to their defaults. */
-"SETTINGS_NOTIFICATIONS_RESET" = "Reset Notification Settings";
+"SETTINGS_NOTIFICATIONS_RESET" = "ئۇقتۇرۇش تەڭشەكلىرىنى قايتا تەڭشەش";
 
 /* Label for the button that confirms notification settings should be reset. */
-"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_ACTION" = "Reset";
+"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_ACTION" = "ئەسلىگە قايتۇر";
 
 /* Question confirming that notification settings should be reset. */
-"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_MESSAGE" = "Reset all notification settings to default for all chats?";
+"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_MESSAGE" = "بارلىق پاراڭلارنىڭ ئۇقتۇرۇش تەڭشەكلىرىنى زاۋۇتتىن چىققان ھالەتكە قايتۇرامسىز؟";
 
 /* Explanation for the button that resets all notification settings. */
-"SETTINGS_NOTIFICATIONS_RESET_FOOTER" = "Reset notification settings to default, including custom settings for your chats.";
+"SETTINGS_NOTIFICATIONS_RESET_FOOTER" = "پاراڭلىرىڭىزنىڭ كېيىن تەڭشەلگەن ھالىتىنى ئۆز ئىچىگە ئالغان ئۇقتۇرۇش تەڭشەكلىرىنى زاۋۇتتىن چىققان ھالەتكە قايتۇرۇش.";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "ئاكتىپلا";
@@ -10406,7 +10406,7 @@
 "TRANSFER_RELAUNCH_NOTIFICATION" = "ئۇچۇرلىشىش ئۈچۈن Signalنى ئېچىڭ";
 
 /* Label for a button that says 'Try Again'. */
-"TRY_AGAIN_BUTTON_TITLE" = "Try Again";
+"TRY_AGAIN_BUTTON_TITLE" = "قايتا سىنا";
 
 /* Label for the cancel button in an alert or action sheet. */
 "TXT_CANCEL_TITLE" = "ۋاز كەچ";

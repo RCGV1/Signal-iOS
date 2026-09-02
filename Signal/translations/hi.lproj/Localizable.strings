@@ -239,7 +239,7 @@
 "APP_LAUNCH_FAILURE_DATABASE_RECOVERY_ACTION_TITLE" = "रिपेयर करें";
 
 /* Action in an action sheet offering to exit the app. */
-"APP_LAUNCH_FAILURE_EXIT_APP_ACTION_TITLE" = "Exit Signal";
+"APP_LAUNCH_FAILURE_EXIT_APP_ACTION_TITLE" = "Signal से बाहर निकलें";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "कृपया Signal का नया वर्ज़न इंस्टॉल करें।";
@@ -254,10 +254,10 @@
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal नहीं खुला";
 
 /* Message for an error sheet shown when the app cannot launch because the device is out of storage space. Embeds 1:{{ the localized name of the user's device model, e.g. iPhone }}; 2:{{ an amount of storage space as a file size, e.g. 1 GB }}. */
-"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_MESSAGE_FORMAT" = "Signal can’t open because your %1$@ is out of storage space. Free up at least %2$@, then reopen Signal.\n\nGo to iOS Settings > General > Storage and remove apps you don't use, delete large videos from your Photos app or other apps, and delete downloaded music and media.";
+"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_MESSAGE_FORMAT" = "Signal नहीं खुल सका है, क्योंकि आपके %1$@ में स्टोरेज स्पेस नहीं बची है। कम से कम %2$@ स्पेस खाली करें और Signal को दोबारा खोलें।\n\niOS सेटिंग > सामान्य > स्टोरेज पर जाएं और जिन ऐप्स का इस्तेमाल नहीं हो रहा है उन्हें हटा दें। साथ ही, अपने Photos ऐप या दूसरे ऐप्स से बड़े वीडियो डिलीट करें और डाउनलोड किया हुआ म्यूज़िक और मीडिया भी डिलीट कर दें।";
 
 /* Title for an error sheet shown when the app cannot launch because the device is out of storage space. */
-"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_TITLE" = "Not Enough Storage Space";
+"APP_LAUNCH_FAILURE_NOT_ENOUGH_STORAGE_SPACE_TITLE" = "स्टोरेज में बहुत कम स्पेस खाली है";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "आपके पुराने डिवाइस से ट्रांसफ़र किया गया डेटा रीस्टोर नहीं हो सका। कृपया support@signal.org पर एक डीबग लॉग भेजें, ताकि हम इस समस्या को सुलझा सकें। Signal रीइंस्टॉल करने पर आपके पुराने मैसेज मिट सकते हैं।";
@@ -2126,13 +2126,13 @@
 "CHAT_LIST_FILTERED_BY_UNREAD_CLEAR_BUTTON" = "अनरीड से फ़िल्टर करें";
 
 /* Title shown on chat list banner for restoring media from a backup is finished */
-"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_FINISHED_TITLE" = "Attachment Restore Complete";
+"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_FINISHED_TITLE" = "अटैचमेंट रीस्टोर पूरा हो गया है";
 
 /* Progress label showing bytes restored from an on-device backup. Embeds {{ %1$@ formatted bytes restored, %2$@ formatted total bytes to restore }}. */
-"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_PROGRESS_FORMAT" = "%1$@ of %2$@";
+"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_PROGRESS_FORMAT" = "%2$@ में से %1$@";
 
 /* Title shown on the chat list banner while restoring attachments from an on-device backup. */
-"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_TITLE" = "Restoring Attachments";
+"CHAT_LIST_LOCAL_FILE_BACKUP_RESTORE_PROGRESS_VIEW_TITLE" = "अटैचमेंट रीस्टोर हो रहे हैं";
 
 /* Message shown in the chat list when the chat list is empty. */
 "CHAT_LIST_NO_CHATS_SUBTITLE" = "हाल की चैट यहां दिखेंगी।";
@@ -2552,7 +2552,7 @@
 "CONVERSATION_PICKER_BLOCKED_BY_ANNOUNCEMENT_ONLY" = "इस ग्रुप में सिर्फ़ ऐडमिन ही मैसेज भेज सकता है।";
 
 /* Displayed at the bottom of chat picker in gray if no chats are selected. */
-"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "Choose a recipient";
+"CONVERSATION_PICKER_CHOOSE_RECIPIENT" = "उनका नाम चुनें जिन्हें भेजना है";
 
 /* table section header for section containing groups */
 "CONVERSATION_PICKER_SECTION_GROUPS" = "ग्रुप";
@@ -3164,10 +3164,10 @@
 "DEVICE_TRANSFER_STATUS_NEW_DEVICE_CONNECTING_MESSAGE" = "अपने पुराने डिवाइस को पास लेकर आएं और यह पक्का करें कि उस पर वाई-फ़ाई और ब्लूटूथ चालू है।";
 
 /* Description message on new device displayed during device transfer when using WiFiAware. */
-"DEVICE_TRANSFER_STATUS_NEW_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "Bring your old device nearby, and make sure Wi-Fi and Bluetooth are enabled. Select this device from the list of devices on the old device.  If device is not visible on old device, select 'Pair New Device' below.";
+"DEVICE_TRANSFER_STATUS_NEW_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "अपने पुराने डिवाइस को पास लेकर आएं और यह पक्का करें कि उस पर वाई-फ़ाई और ब्लूटूथ चालू है। पुराने डिवाइस पर मौजूद डिवाइसों की सूची में से यह डिवाइस चुनें।  अगर पुराने डिवाइस में यह डिवाइस नहीं दिख रहा है, तो नीचे 'नया डिवाइस पेयर करें' चुनें।";
 
 /* Title for paring an old device to transfer to. */
-"DEVICE_TRANSFER_STATUS_NEW_DEVICE_PAIR_DEVICE" = "Pair a new device";
+"DEVICE_TRANSFER_STATUS_NEW_DEVICE_PAIR_DEVICE" = "नया डिवाइस पेयर करें";
 
 /* Status message on new device when transfer is starting. */
 "DEVICE_TRANSFER_STATUS_NEW_DEVICE_STARTING" = "पुराने डिवाइस से कनेक्ट होने का इंतज़ार है…";
@@ -3194,16 +3194,16 @@
 "DEVICE_TRANSFER_STATUS_OLD_DEVICE_CONNECTING_MESSAGE" = "अपने नए डिवाइस को पास लेकर आएं और यह देख लें कि उस पर वाई-फ़ाई और ब्लूटूथ चालू है।";
 
 /* Description message on old device displayed during device connection when using WiFiAware. */
-"DEVICE_TRANSFER_STATUS_OLD_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "Bring your new device nearby, and make sure Wi-Fi and Bluetooth are enabled.";
+"DEVICE_TRANSFER_STATUS_OLD_DEVICE_CONNECTING_WIFI_AWARE_MESSAGE" = "अपने नए डिवाइस को पास लेकर आएं और यह देख लें कि उस पर वाई-फ़ाई और ब्लूटूथ चालू है।";
 
 /* Status message on old device when transfer is starting. */
 "DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING" = "नए डिवाइस से कनेक्ट होने का इंतज़ार है…";
 
 /* Status message on old device when WiFiAware transfer is starting. */
-"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE" = "Select new device to connect to…";
+"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE" = "कनेक्ट करने के लिए नया डिवाइस चुनें…";
 
 /* Description message on old device displayed during device discovery when using WiFiAware. */
-"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE_MESSAGE" = "Select the new device from the list of paired devices below. If the new device is not visible, select 'Pair a new device' to begin the process.";
+"DEVICE_TRANSFER_STATUS_OLD_DEVICE_STARTING_WIFI_AWARE_MESSAGE" = "नीचे दी गई पेयर्ड डिवाइसों की सूची में से नया डिवाइस चुनें। अगर नया डिवाइस दिखाई नहीं दे रहा है, तो प्रोसेस शुरू करने के लिए 'नया डिवाइस पेयर करें' चुनें।";
 
 /* table cell label in conversation settings */
 "DISAPPEARING_MESSAGES" = "मैसेज गायब होने की सुविधा";
@@ -4958,7 +4958,7 @@
 "HOME_VIEW_TITLE_SELECT_CHATS" = "चैट चुनें";
 
 /* Title for the mute duration menu in the toolbar of the chat list if multi-select is active. */
-"HOME_VIEW_TOOLBAR_MUTE_MENU_TITLE" = "Mute selected chats for…";
+"HOME_VIEW_TOOLBAR_MUTE_MENU_TITLE" = "इतने समय के लिए चुनी गईं चैट म्यूट करें…";
 
 /* Title 'Read All' button in the toolbar of the ChatList if multi-section is active. */
 "HOME_VIEW_TOOLBAR_READ_ALL" = "सभी को पढ़ें";
@@ -5456,10 +5456,10 @@
 "LOCAL_BACKUPS_SELECT_HERO_SHEET_TITLE" = "अपना बैकअप फ़ोल्डर चुनें";
 
 /* Message for an action sheet informing the user we were unable to save their local backup location */
-"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_MESSAGE" = "Something went wrong and the folder location you selected couldn’t be saved. Try again. If this problem persists, please contact support.";
+"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_MESSAGE" = "कुछ गड़बड़ हुई है, आपने फ़ोल्डर को सेव करने के लिए जो लोकेशन चुनी वह सेव नहीं हो पाई। फिर से कोशिश करें। अगर यह परेशानी बनी रहती है, तो कृपया सपोर्ट टीम से संपर्क करें।";
 
 /* Title for an action sheet informing the user we were unable to save their local backup location */
-"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_TITLE" = "Couldn’t Save Folder Location";
+"LOCAL_FILE_BACKUP_CHOOSE_FOLDER_ERROR_TITLE" = "फ़ोल्डर लोकेशन सेव नहीं हो पाई";
 
 /* Button for a sheet asking the user to choose a new local file backup folder */
 "LOCAL_FILE_BACKUP_CHOOSE_NEW_FOLDER_SHEET_BUTTON" = "फ़ोल्डर चुनें";
@@ -5528,16 +5528,16 @@
 "LONG_TEXT_VIEW_TITLE" = "मैसेज";
 
 /* Message for a sheet warning the user that their device is low on storage space. Embeds 1:{{ the localized name of the user's device model, e.g. iPhone }}; 2:{{ an amount of storage space as a file size, e.g. 1 GB }}. */
-"LOW_DISK_SPACE_WARNING_SHEET_MESSAGE_FORMAT" = "Your %1$@ is running low on storage space. If it fills up, Signal will stop working and you could lose data. Free up at least %2$@ of space.";
+"LOW_DISK_SPACE_WARNING_SHEET_MESSAGE_FORMAT" = "आपके %1$@ में स्टोरेज स्पेस कम है। अगर यह स्पेस भर जाएगी, तो Signal काम करना बंद कर देगा और आपका डेटा भी मिट सकता है। कम से कम %2$@ स्पेस खाली करें।";
 
 /* A suggestion for freeing up storage space, on a sheet warning the user that their device is low on storage space. */
-"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_CAMERA_ROLL_MEDIA" = "Delete large videos from your Photos app, Signal, or other messaging apps";
+"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_CAMERA_ROLL_MEDIA" = "अपने Photos ऐप, Signal या दूसरे मैसेजिंग ऐप से बड़े वीडियो डिलीट करें";
 
 /* A suggestion for freeing up storage space, on a sheet warning the user that their device is low on storage space. */
-"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_DOWNLOADED_MEDIA" = "Delete downloaded music or other media";
+"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_DELETE_DOWNLOADED_MEDIA" = "डाउनलोड किया गया म्यूज़िक या दूसरा मीडिया डिलीट करें";
 
 /* A suggestion for freeing up storage space, on a sheet warning the user that their device is low on storage space. */
-"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_REMOVE_APPS" = "Go to iOS Settings > General > Storage. Review the recommendations and remove apps you don't use";
+"LOW_DISK_SPACE_WARNING_SHEET_SUGGESTION_REMOVE_APPS" = "iOS सेटिंग > सामान्य > स्टोरेज पर जाएं। सुझाव देखें और ऐसे ऐप हटा दें जिनका इस्तेमाल नहीं हो रहा है";
 
 /* Title for a sheet warning the user that their device is low on storage space. */
 "LOW_DISK_SPACE_WARNING_SHEET_TITLE" = "स्टोरेज स्पेस कम है";
@@ -8951,16 +8951,16 @@
 "SETTINGS_LOCAL_FILE_BACKUPS_LOCAL_BACKUP_IN_PROGRESS_MESSAGE" = "Signal सिक्योर बैकअप नहीं लिया जा सका, क्योंकि ऑन-डिवाइस बैकअप लिया जा रहा है। बाद में दोबारा कोशिश करें।";
 
 /* Label for a progress bar while attachments are being copied for an on-device backup. Embeds 1:{{ percentage complete }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_COPYING_ATTACHMENTS" = "Copying attachments (%1$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_COPYING_ATTACHMENTS" = "अटैचमेंट कॉपी हो रहे हैं (%1$@)";
 
 /* Label for a progress bar while the attachments are being prepared for an on-device backup. Embeds 1:{{ percentage complete }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_ATTACHMENTS" = "Preparing attachments (%1$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_ATTACHMENTS" = "अटैचमेंट तैयार किए जा रहे हैं (%1$@)";
 
 /* Label for a progress bar while the on-device backup is being prepared. Embeds 1:{{ percentage complete }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_BACKUP" = "Preparing backup (%1$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_PREPARING_BACKUP" = "बैकअप तैयार हो रहा है (%1$@)";
 
 /* Label for a progress bar while attachments are being restored for an on-device backup. Embeds {{%1$@ completed bytes restored, %2$@ total bytes to restore  }}. */
-"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_RESTORING_ATTACHMENTS" = "Restoring attachments (%1$@ of %2$@)";
+"SETTINGS_LOCAL_FILE_BACKUPS_PROGRESS_RESTORING_ATTACHMENTS" = "अटैचमेंट रीस्टोर किए जा रहे हैं (%2$@ में से %1$@)";
 
 /* Message for an action sheet when a user cannot perform a local backup because a remote backup is in progress */
 "SETTINGS_LOCAL_FILE_BACKUPS_REMOTE_BACKUP_IN_PROGRESS_MESSAGE" = "ऑन-डिवाइस बैकअप नहीं लिया जा सका, क्योंकि Signal सिक्योर बैकअप लिया जा रहा है। बाद में दोबारा कोशिश करें।";
@@ -9032,22 +9032,22 @@
 "SETTINGS_NOTIFICATIONS_CONTACT_JOINED_SIGNAL_FOOTER" = "जब फ़ोन में मौजूद कोई कॉन्टैक्ट Signal से जुड़े, तो नोटिफ़िकेशन पाएं।";
 
 /* Label for a switch controlling whether reactions to your messages generate notifications. */
-"SETTINGS_NOTIFICATIONS_REACTIONS" = "Reaction Notifications";
+"SETTINGS_NOTIFICATIONS_REACTIONS" = "रिएक्शन नोटिफ़िकेशन";
 
 /* Explanation for the switch controlling whether reactions to your messages generate notifications. */
-"SETTINGS_NOTIFICATIONS_REACTIONS_FOOTER" = "Show notifications for reactions to messages you send.";
+"SETTINGS_NOTIFICATIONS_REACTIONS_FOOTER" = "अपने भेजे गए मैसेज पर मिलने वाले रिएक्शन के लिए नोटिफ़िकेशन पाएं।";
 
 /* Label for a button that resets all notification settings to their defaults. */
-"SETTINGS_NOTIFICATIONS_RESET" = "Reset Notification Settings";
+"SETTINGS_NOTIFICATIONS_RESET" = "नोटिफ़िकेशन सेटिंग रीसेट करें";
 
 /* Label for the button that confirms notification settings should be reset. */
-"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_ACTION" = "Reset";
+"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_ACTION" = "रीसेट करें";
 
 /* Question confirming that notification settings should be reset. */
-"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_MESSAGE" = "Reset all notification settings to default for all chats?";
+"SETTINGS_NOTIFICATIONS_RESET_CONFIRMATION_MESSAGE" = "क्या सभी चैट के लिए नोटिफ़िकेशन सेटिंग को डिफ़ॉल्ट पर रीसेट करना है?";
 
 /* Explanation for the button that resets all notification settings. */
-"SETTINGS_NOTIFICATIONS_RESET_FOOTER" = "Reset notification settings to default, including custom settings for your chats.";
+"SETTINGS_NOTIFICATIONS_RESET_FOOTER" = "नोटिफ़िकेशन सेटिंग को डिफ़ॉल्ट पर रीसेट करें, जिसमें चैट की कस्टम सेटिंग भी शामिल हैं।";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "चालू करें";
@@ -10406,7 +10406,7 @@
 "TRANSFER_RELAUNCH_NOTIFICATION" = "मैसेज भेजने के लिए Signal खोलें";
 
 /* Label for a button that says 'Try Again'. */
-"TRY_AGAIN_BUTTON_TITLE" = "Try Again";
+"TRY_AGAIN_BUTTON_TITLE" = "दोबारा कोशिश करें";
 
 /* Label for the cancel button in an alert or action sheet. */
 "TXT_CANCEL_TITLE" = "रद्द करें";
